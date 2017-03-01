@@ -9,8 +9,7 @@ Before writing a Snap plugin:
 * See if one already exists in the [Plugin Catalog](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_CATALOG.md) 
 * See if someone mentioned it in the [plugin wishlist](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_CATALOG.md#wishlist)
 
-If you do decide to write a plugin check out the [plugin authoring docs](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_AUTHORING.md#plugin-authoring) and let us know you are working on one!
-
+If you do decide to write a plugin check out the [plugin authoring docs](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_AUTHORING.md#plugin-authoring) and let us know you are working on one! You can find us on [Slack #snap-developers channel](https://intelsdi-x.herokuapp.com/).
 ## Brief Overview of Snap Architecture
 
 Snap is an open and modular telemetry framework designed to simplify the collection, processing and publishing of data through a single HTTP based API. Plugins provide the functionality of collection, processing and publishing and can be loaded/unloaded, upgraded and swapped without requiring a restart of the Snap daemon.
